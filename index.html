@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <!-- Include PayPal's JavaScript SDK -->
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID&currency=USD" defer></script>
+</head>
+<body>
+    <div class="container">
+<h1>Help Us to save Gaza family</h1>
+<h1>Help Us to save Gaza family</h1>
+<h1>Help Us to save Gaza family</h1>
+<h1>Help Us to save Gaza family</h1>
+        <p>I have created this website using my left hand, i lost my right hand and right leg in Gaza(Beit Hanoon) bomb attack by the isreal, now i'm completly lost my life, i'm finding very difficult to feed my 5 and 6 years daughters, 4 years son, along with me there are 55 other families who are waiting to evacuate gaza,we waited for other countries help but now we lost hope completly, please please please understand our situation, we dont have shelter,medicine and food here, i have lost the hope completly, this is the last hope for me and my family. thank you all.</p>
+
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <img src="1.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="2.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="3.jpg" style="width:100%">
+            </div>
+  <div class="mySlides fade">
+                <img src="4.jpg" style="width:100%">
+            </div>
+  <div class="mySlides fade">
+                <img src="5.jpg" style="width:100%">
+            </div>
+            <!-- Add more slides as needed -->
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <form id="donationForm">
+          
+<script src="https://www.paypal.com/sdk/js?client-id=BAAym4uM1qy8h37WoKwx_EGxRPYJ1eUXacXNlwivj0l8ykRU0iEcdgkPNk7E4B_0IFdwJzEgkqD6mZTGYQ&components=hosted-buttons&disable-funding=venmo&currency=USD"></script>
+<div id="paypal-container-32GUZKLEW98YY"></div>
+<script>
+  paypal.HostedButtons({
+    hostedButtonId: "32GUZKLEW98YY",
+  }).render("#paypal-container-32GUZKLEW98YY")
+</script>
+         <button onclick="window.location.href='https://www.paypal.com/ncp/payment/32GUZKLEW98YY'">Donate</button>
+<h4> Donation we got till now: 07 dollars,
+Donation we need to evacuvate Gaza: 20,000 dollars</h4> <h5>updated 5 hours ago</h5>
+
+
+
+
+        </form>
+
+        <div id="paypal-button-container"></div>
+
+        <div id="qrCodeContainer">
+            <h2>Or Scan the QR Code to Donate</h2>
+            <img src="qr.png" alt="QR Code" id="qrCode">
+        </div>
+
+        <div id="thankYouMessage" class="hidden">
+            <h2>Thank you for your donation!</h2>
+            <p>Your support is greatly appreciated.</p>
+        </div>
+    </div>
+</body>
+</html>
